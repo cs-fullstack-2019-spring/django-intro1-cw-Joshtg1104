@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-
+# the default route and the music route
 urlpatterns = [
     path('', include('introCWApp.urls')),
     path('music/', include('introCWApp.urls')),
